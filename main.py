@@ -1,4 +1,6 @@
-s = input()
-s = s.replace("a", "").replace("o", "").replace("y", "").replace("e", "").replace("u", "").replace("i", "").replace("A", "").replace("O", "").replace("Y", "").replace("E", "").replace("U", "").replace("I", "").lower()
-s = ".".join(s)
-print('.' + s.lower(), sep="")
+
+var = int(input())
+var1 = var - 1
+var2 = var + 1
+print("Для числа {var} предыдущим будет число {var1}.".format(var=var, var1=var1))
+print("Для числа {var} следующим будет число {var2}.".format(var=var, var2 = var2))
